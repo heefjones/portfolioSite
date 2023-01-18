@@ -12,3 +12,10 @@ if(myAge < 26) {
 else {
     occ.innerHTML = 'employed as a web developer';
 }
+
+//generating random happy emoji for footer
+const foot = document.getElementById('f1');
+const emojis = ['😀', '😃', '😄', '😁', '😆', '🙂', '🙃', '😉', '😗', '😚', '😙', '🤗', '😬'];
+const randomEmote = emojis[Math.floor(Math.random() * emojis.length)];
+
+foot.innerHTML += randomEmote;

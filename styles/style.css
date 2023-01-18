@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    border: 1px solid red;
+    
 }
 
 .content {
@@ -45,6 +45,15 @@ a {
 a:hover {
     color: slategray;
 
+}
+
+button {
+    
+}
+
+main > div {
+    /* border: 1px solid red; */
+    margin: 3% auto;
 }
 
 #about {
@@ -90,7 +99,11 @@ ul {
 }
 
 footer {
-    /* position: absolute; */
-    margin: auto;
-    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.foot {
+    position: fixed;
+    bottom: 0;
 }
