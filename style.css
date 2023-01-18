@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+html {
+    background: linear-gradient(90deg, rgb(255,255,255), rgb(190,200,200));
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    border: 1px solid red;
+}
+
+.content {
+    width: 58%;
+    height: 100%;
+    margin: auto;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 35%;
+}
+
+div h1, div nav {
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.9rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    color: slategray;
+
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-info {
+    width: 60%;
+}
+
+.img-container {
+    margin-top: 1%;
+    width: 35%;
+}
+
+.img-container img {
+    width: 100%;
+    border-radius: 3%;
+}
+
+hr {
+    /* margin: auto; */
+}
+
+.skillset {
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+.skillset div {
+    margin-right: 20%;
+}
+
+.title {
+    font-weight: 800;
+}
+
+ul {
+    list-style: square;
+}
+
+footer {
+    /* position: absolute; */
+    margin: auto;
+    border: 1px solid red;
+}
