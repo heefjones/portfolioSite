@@ -83,6 +83,11 @@ main > div {
     border-radius: 3%;
 }
 
+/* img:hover {
+    background-image: url(../images/MIKE.png);
+    /* z-index: 10; */
+} */
+
 hr {
     /* margin: auto; */
 }

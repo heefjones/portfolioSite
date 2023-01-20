@@ -44,7 +44,7 @@ const mode = document.getElementById('mode');
 mode.onclick = switchMode;
 
 
-
+// auto-adjusts bio based on my age
 let now = new Date();
 let birth = new Date(1998, 5, 10);
 let myAge = Math.floor((now - birth) / 31536000000);
